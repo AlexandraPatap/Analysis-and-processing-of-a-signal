@@ -1,0 +1,1 @@
+-force-include-file "interfata.c";"d:\facultate\an3\sem1\apd - proiect\proiect3\interfata.c" -force-include-file "interfata.h";"d:\facultate\an3\sem1\apd - proiect\proiect3\interfata.h" 

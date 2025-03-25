@@ -1,0 +1,100 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[OnMainPanel]
+Class="Function"
+Prototype="int OnMainPanel(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnLoad]
+Class="Function"
+Prototype="int OnLoad(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnAplica]
+Class="Function"
+Prototype="int OnAplica(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[filtru]
+Class="Function"
+Prototype="void filtru(double alpha);"
+
+[filtru_mediere]
+Class="Function"
+Prototype="void filtru_mediere(int maxi);"
+
+[OnExit]
+Class="Function"
+Prototype="int OnExit(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnPrev]
+Class="Function"
+Prototype="int OnPrev(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnNext]
+Class="Function"
+Prototype="int OnNext(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnStart]
+Class="Function"
+Prototype="int OnStart(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnDerivata]
+Class="Function"
+Prototype="int OnDerivata(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[derivare]
+Class="Function"
+Prototype="void derivare();"
+
+[OnAnvelopa]
+Class="Function"
+Prototype="int OnAnvelopa(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnAnvelopa2]
+Class="Function"
+Prototype="int OnAnvelopa2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnDerivata2]
+Class="Function"
+Prototype="int OnDerivata2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnSwitch]
+Class="Function"
+Prototype="int OnSwitch(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnPanelFreq]
+Class="Function"
+Prototype="int OnPanelFreq(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnOptiuni]
+Class="Function"
+Prototype="int OnOptiuni(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnFilterAplica]
+Class="Function"
+Prototype="int OnFilterAplica(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnRawData]
+Class="Function"
+Prototype="int OnRawData(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnFiltredData]
+Class="Function"
+Prototype="int OnFiltredData(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnTimerSwitch]
+Class="Function"
+Prototype="int OnTimerSwitch(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnTimer]
+Class="Function"
+Prototype="int OnTimer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ComputePowerSpectrum]
+Class="Function"
+Prototype="int ComputePowerSpectrum(double *inputArray, unsigned int startp, unsigned int numberOfElements, double samplingRate, double *convertedSpectrum, double *frequencyInterval, double *powerPeak, double *freqPeak);"
+
+[WindowCoef]
+Class="Function"
+Prototype="double *WindowCoef(int win, int numElem);"
+
